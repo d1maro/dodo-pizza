@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
