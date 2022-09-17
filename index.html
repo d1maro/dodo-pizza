@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/slider.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
+    <header class="container header">
                 <div class="header__logo">
                     <div class="logo__img">
                         <img class="global__img" src="./images/desktop/header/logo.svg" width="42" height="44" alt="Logo">
@@ -30,14 +30,30 @@
                     <a href="tel: 8 800 302-00-60" class="phone__number">8 800 302-00-60</a>
                     <p class="phone__hint">Звонок бесплатный</p>
                 </div>
-            </div>
-        </div>
     </header>
 
-    <nav>
-        <div class="container">
-            
-        </div>
+    <nav class="container navigation">
+                <ul class="navigation__menu">
+                    <li><a href="#pizza" class="navigation__link">Пицца</a></li>
+                    <li><a href="#combo" class="navigation__link">Комбо</a></li>
+                    <li><a href="#starters" class="navigation__link">Закуски</a></li>
+                    <li><a href="#desserts" class="navigation__link">Десерты</a></li>
+                    <li><a href="#drinks" class="navigation__link">Напитки</a></li>
+                    <li><a href="#other" class="navigation__link">Другие&nbsp;товары</a></li>
+                </ul>
+                <a class="navigation__basket" href="#basket">Корзина</a>
     </nav>
+
+    <main>
+
+        <section class="container slider">
+                <img  class="global__img slider__img"
+                src="./images/desktop/hero/meatless-1x.jpg"
+                srcset="./images/desktop/hero/meatless-1x.jpg 1x,
+                ./images/desktop/hero/meatless-2x.jpg 2x"
+                alt="Предложения без мяса">
+        </section>
+
+    </main>
 </body>
 </html>

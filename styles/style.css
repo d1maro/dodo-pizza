@@ -1,3 +1,7 @@
+:root {
+  --main-font: "Nunito", "Open Sans", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +22,5 @@ a {
   height: auto;
 }
 
-:root {
-  --main-font: "Nunito", "Open Sans", sans-serif;
-}
+
 
