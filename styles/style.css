@@ -22,5 +22,30 @@ a {
   height: auto;
 }
 
+.global__section-title {
+  padding-bottom: 40px;
+
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.global__grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.global__card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
 
 
