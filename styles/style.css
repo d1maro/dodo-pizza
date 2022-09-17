@@ -7,3 +7,18 @@ html {
   margin: 0 auto;
   box-sizing: content-box;
 }
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.global__img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --main-font: "Nunito", "Open Sans", sans-serif;
+}
+
