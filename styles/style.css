@@ -1,51 +1,128 @@
 :root {
-  --main-font: "Nunito", "Open Sans", sans-serif;
+    --main-font: "Nunito", "Open Sans", sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .container {
-  max-width: 1060px;
-  margin: 0 auto;
-  box-sizing: content-box;
+    max-width: 1060px;
+    margin: 0 auto;
+    box-sizing: content-box;
 }
 
 a {
-  text-decoration: none;
-  color: currentColor;
+    text-decoration: none;
+    color: currentColor;
 }
 
 .global__img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.global__button {
+  padding: 9px 28px;
+  background-color: #F96900;
+  border-radius: 50px;
+  
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+
+  transition: 0.4s;
+}
+
+.global__button:hover {
+  background-color: #e96100;
+  
+  transition: 0.4s;
 }
 
 .global__section-title {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 
-  font-family: var(--main-font);
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #000000;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
 }
 
 .global__grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    column-gap: 20px;
+    row-gap: 60px;
 }
 
 .global__card-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+    display: block;
+}
+
+.card__img {
+    padding: 0 15px;
+  }
+
+.card__title {
+    margin-bottom: 10px;
+
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.card__description {
+    flex-grow: 1;
+
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #73798C;
+
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.card__price {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
 }
 
 
