@@ -1,0 +1,99 @@
+.footer {
+    margin-top: 64px;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    background-color: #464C55;
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links {
+    display: flex;
+}
+
+.links__dodo {
+    max-width: 140px;
+    margin-right: 43px;
+}
+
+.links__job {
+    max-width: 105px;
+    margin-right: 75px;
+}
+
+.links__partners {
+    max-width: 105px;
+    margin-right: 73px;
+}
+
+.links__interesting {
+    max-width: 130px;
+}
+
+.menu__header {
+    margin-bottom: 10px;
+
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.menu__item {
+    margin-bottom: 10px;
+
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.phone__number-footer {
+    display: block;
+    margin-top: 27px;
+    margin-bottom: 6px;
+
+    font-family: var(--main-font);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color:#FFFFFF;
+}
+
+.phone__hint-footer {
+    display: block;
+    margin-bottom: 26px;
+
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.footer__mail {
+    display: block;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #ffffff;
+    opacity: 0.9;
+}
