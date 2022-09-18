@@ -23,19 +23,19 @@ a {
 }
 
 .global__button {
-  padding: 9px 28px;
-  background-color: #F96900;
-  border-radius: 50px;
+    padding: 9px 28px;
+    background-color: #F96900;
+    border-radius: 50px;
   
-  font-family: var(--main-font);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #FFFFFF;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 
-  transition: 0.4s;
+    transition: 0.4s;
 }
 
 .global__button:hover {
@@ -62,6 +62,8 @@ a {
     grid-template-rows: repeat(2, 2fr);
     column-gap: 20px;
     row-gap: 60px;
+
+    padding-bottom: 70px;
 }
 
 .global__card-link {
@@ -75,7 +77,8 @@ a {
 
 .card {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .card__img {
@@ -84,6 +87,7 @@ a {
 
 .card__title {
     margin-bottom: 10px;
+    padding-right: 20px;
 
     font-family: var(--main-font);
     font-size: 20px;
@@ -96,6 +100,7 @@ a {
 
 .card__description {
     flex-grow: 1;
+    padding-right: 20px;
 
     font-family: var(--main-font);
     font-size: 14px;
@@ -111,7 +116,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    margin-top: 30px;
+    margin-top: 17px;
     padding-right: 20px;
 }
 
